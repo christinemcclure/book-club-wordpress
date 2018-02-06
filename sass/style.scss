@@ -80,6 +80,14 @@ html,body{
       color:darken($brown,20%);
     }    
   }
+}
 
+.democracy, .democracy .dem-vote label{
+  color:$brown;
+  font-weight:500;
+  .dem-vote-button input.dem-button, input.dem-revote-link.dem-revote-button.dem-button{
+    background: $red;
+    color:$cream;
+  }
 }
 

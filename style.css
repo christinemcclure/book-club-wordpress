@@ -95,3 +95,14 @@ html hr, body hr {
   background: #e59201;
   color: black;
 }
+
+/* line 85, sass/style.scss */
+.democracy, .democracy .dem-vote label {
+  color: #2E1414;
+  font-weight: 500;
+}
+/* line 88, sass/style.scss */
+.democracy .dem-vote-button input.dem-button, .democracy input.dem-revote-link.dem-revote-button.dem-button, .democracy .dem-vote label .dem-vote-button input.dem-button, .democracy .dem-vote label input.dem-revote-link.dem-revote-button.dem-button {
+  background: #a51111;
+  color: #fef0c1;
+}
