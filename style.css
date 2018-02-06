@@ -10,3 +10,8 @@ Text Domain: kotha-child
 html, body {
   background: url("images/happy-plants.png") #93B891;
 }
+
+/* line 23, sass/style.scss */
+#footer {
+  display: none;
+}
