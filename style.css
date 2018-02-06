@@ -6,3 +6,7 @@ Template: kotha
 Version: 1.0.0
 Text Domain: kotha-child
 */
+/* line 19, sass/style.scss */
+html, body {
+  background: url("images/happy-plants.png") #93B891;
+}
