@@ -11,7 +11,7 @@ Text Domain: kotha-child
 //http://www.colourlovers.com/pattern/2958888/happy_plants by incal: http://www.colourlovers.com/lover/incal/loveNote
 
 $green: #93B891;
-$cream: lighten(#FDE48F,20%);
+$cream: lighten(#FDE48F,10%);
 $orange: #FEAB1B;
 $red: darken(#EA3232,20%);
 $brown: #2E1414;
@@ -21,3 +21,13 @@ html,body{
 }
 
 #footer{display:none;}
+
+#header{
+  background: $brown;
+  color:$cream;
+  a{color:$cream;}
+  .sub-menu{
+    background: $brown;
+    a {border-top: 1px solid $orange;}
+  }
+}

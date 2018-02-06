@@ -15,3 +15,21 @@ html, body {
 #footer {
   display: none;
 }
+
+/* line 25, sass/style.scss */
+#header {
+  background: #2E1414;
+  color: #fef0c1;
+}
+/* line 28, sass/style.scss */
+#header a {
+  color: #fef0c1;
+}
+/* line 29, sass/style.scss */
+#header .sub-menu {
+  background: #2E1414;
+}
+/* line 31, sass/style.scss */
+#header .sub-menu a {
+  border-top: 1px solid #FEAB1B;
+}
