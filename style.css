@@ -18,7 +18,7 @@ html #primary, html #main .post, html #main .page, body #primary, body #main .po
 }
 /* line 27, sass/style.scss */
 html .primary-sidebar .widget, body .primary-sidebar .widget {
-  background: #fec158;
+  background: #fecd76;
 }
 /* line 28, sass/style.scss */
 html a, html #main *[id^='readlink'], body a, body #main *[id^='readlink'] {
