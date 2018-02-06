@@ -16,30 +16,34 @@ html #primary, html #main .post, html #main .page, body #primary, body #main .po
   color: #2E1414;
 }
 /* line 25, sass/style.scss */
+html .primary-sidebar .widget, body .primary-sidebar .widget {
+  background: #febe4e;
+}
+/* line 26, sass/style.scss */
 html a, body a {
   color: #a51111;
   font-weight: bold;
 }
 
-/* line 28, sass/style.scss */
+/* line 29, sass/style.scss */
 #footer {
   display: none;
 }
 
-/* line 30, sass/style.scss */
+/* line 31, sass/style.scss */
 #header {
   background: #2E1414;
   color: #fef0c1;
 }
-/* line 33, sass/style.scss */
+/* line 34, sass/style.scss */
 #header a {
   color: #fef0c1;
 }
-/* line 34, sass/style.scss */
+/* line 35, sass/style.scss */
 #header .sub-menu {
   background: #2E1414;
 }
-/* line 36, sass/style.scss */
+/* line 37, sass/style.scss */
 #header .sub-menu a {
   border-top: 1px solid #FEAB1B;
 }
