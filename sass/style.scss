@@ -18,6 +18,11 @@ $brown: #2E1414;
 
 html,body{
   background: url('images/happy-plants.png') $green;
+  #primary, #main .post, #main .page{
+    background: $cream;
+    color: $brown;
+  }  
+  a {color: $red; font-weight:bold;}
 }
 
 #footer{display:none;}
@@ -31,3 +36,4 @@ html,body{
     a {border-top: 1px solid $orange;}
   }
 }
+

@@ -10,26 +10,36 @@ Text Domain: kotha-child
 html, body {
   background: url("images/happy-plants.png") #93B891;
 }
+/* line 21, sass/style.scss */
+html #primary, html #main .post, html #main .page, body #primary, body #main .post, body #main .page {
+  background: #fef0c1;
+  color: #2E1414;
+}
+/* line 25, sass/style.scss */
+html a, body a {
+  color: #a51111;
+  font-weight: bold;
+}
 
-/* line 23, sass/style.scss */
+/* line 28, sass/style.scss */
 #footer {
   display: none;
 }
 
-/* line 25, sass/style.scss */
+/* line 30, sass/style.scss */
 #header {
   background: #2E1414;
   color: #fef0c1;
 }
-/* line 28, sass/style.scss */
+/* line 33, sass/style.scss */
 #header a {
   color: #fef0c1;
 }
-/* line 29, sass/style.scss */
+/* line 34, sass/style.scss */
 #header .sub-menu {
   background: #2E1414;
 }
-/* line 31, sass/style.scss */
+/* line 36, sass/style.scss */
 #header .sub-menu a {
   border-top: 1px solid #FEAB1B;
 }
