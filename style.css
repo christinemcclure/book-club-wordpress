@@ -56,30 +56,35 @@ html h3, body h3 {
 html h2, body h2 {
   font-size: 1.4em;
 }
+/* line 60, sass/style.scss */
+html hr, body hr {
+  margin: 20px 0;
+  border: 1px solid tan;
+}
 
-/* line 62, sass/style.scss */
+/* line 66, sass/style.scss */
 #footer {
   display: none;
 }
 
-/* line 64, sass/style.scss */
+/* line 68, sass/style.scss */
 #header {
   background: #2E1414;
   color: #e59201;
 }
-/* line 67, sass/style.scss */
+/* line 71, sass/style.scss */
 #header a {
   color: #fec96c;
 }
-/* line 68, sass/style.scss */
+/* line 72, sass/style.scss */
 #header .sub-menu {
   background: #2E1414;
 }
-/* line 70, sass/style.scss */
+/* line 74, sass/style.scss */
 #header .sub-menu a {
   border-top: 1px solid #e59201;
 }
-/* line 71, sass/style.scss */
+/* line 75, sass/style.scss */
 #header .sub-menu a:hover {
   background: #e59201;
   color: black;
