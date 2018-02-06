@@ -24,26 +24,30 @@ html a, body a {
   color: #a51111;
   font-weight: bold;
 }
+/* line 28, sass/style.scss */
+html h1, html h2, html h3, html h4, html h5, html h6, body h1, body h2, body h3, body h4, body h5, body h6 {
+  color: #324c31;
+}
 
-/* line 29, sass/style.scss */
+/* line 33, sass/style.scss */
 #footer {
   display: none;
 }
 
-/* line 31, sass/style.scss */
+/* line 35, sass/style.scss */
 #header {
   background: #2E1414;
   color: #fef0c1;
 }
-/* line 34, sass/style.scss */
+/* line 38, sass/style.scss */
 #header a {
   color: #fef0c1;
 }
-/* line 35, sass/style.scss */
+/* line 39, sass/style.scss */
 #header .sub-menu {
   background: #2E1414;
 }
-/* line 37, sass/style.scss */
+/* line 41, sass/style.scss */
 #header .sub-menu a {
   border-top: 1px solid #FEAB1B;
 }

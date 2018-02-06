@@ -24,6 +24,10 @@ html,body{
   }
   .primary-sidebar .widget{background:lighten($orange, 12%);}
   a {color: $red; font-weight:bold;}
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: darken($green,40%);
+  }
 }
 
 #footer{display:none;}
