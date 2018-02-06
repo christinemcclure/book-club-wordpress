@@ -34,7 +34,7 @@ html .post .entry-header h1, html .post .entry-header h1.entry-title, html .page
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   text-align: left;
-  font-size: 2.4em;
+  font-size: 2.2em;
 }
 /* line 46, sass/style.scss */
 html h4, body h4 {
@@ -46,7 +46,7 @@ html h3, body h3 {
 }
 /* line 48, sass/style.scss */
 html h2, body h2 {
-  font-size: 1.6em;
+  font-size: 1.4em;
 }
 
 /* line 52, sass/style.scss */
