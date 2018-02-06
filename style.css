@@ -17,7 +17,7 @@ html #primary, html #main .post, html #main .page, body #primary, body #main .po
 }
 /* line 25, sass/style.scss */
 html .primary-sidebar .widget, body .primary-sidebar .widget {
-  background: #febe4e;
+  background: #fec158;
 }
 /* line 26, sass/style.scss */
 html a, body a {
