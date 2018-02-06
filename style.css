@@ -79,3 +79,8 @@ html h2, body h2 {
 #header .sub-menu a {
   border-top: 1px solid #e59201;
 }
+/* line 71, sass/style.scss */
+#header .sub-menu a:hover {
+  background: #e59201;
+  color: black;
+}

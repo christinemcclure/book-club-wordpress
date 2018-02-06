@@ -68,6 +68,11 @@ html,body{
   .sub-menu{
     background: $brown;
     a {border-top: 1px solid darken($orange, 10%);}
+    a:hover{
+      background: darken($orange, 10%);
+      color:darken($brown,20%);
+    }    
   }
+
 }
 
