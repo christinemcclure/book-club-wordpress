@@ -57,11 +57,11 @@ html h2, body h2 {
 /* line 54, sass/style.scss */
 #header {
   background: #2E1414;
-  color: #fef0c1;
+  color: #e59201;
 }
 /* line 57, sass/style.scss */
 #header a {
-  color: #fef0c1;
+  color: #fec96c;
 }
 /* line 58, sass/style.scss */
 #header .sub-menu {
@@ -69,5 +69,5 @@ html h2, body h2 {
 }
 /* line 60, sass/style.scss */
 #header .sub-menu a {
-  border-top: 1px solid #FEAB1B;
+  border-top: 1px solid #e59201;
 }
