@@ -62,7 +62,10 @@ html,body{
     border: 1px solid tan;
   }
 }
-
+.winner {
+  padding: 6px;
+  background: $green;
+}
 #footer{display:none;}
 
 #header{
