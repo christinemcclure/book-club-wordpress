@@ -25,7 +25,17 @@ html,body{
     color: $brown;
   }
   .primary-sidebar .widget{background:lighten($orange, 12%);}
-  a {color: $red; font-weight:bold;}
+  a, #main *[id^='readlink'] {
+    color: $red; 
+    font-weight:bold; 
+    padding:0; 
+    border:none !important; // hate this, but the plugin dev did it first
+    text-decoration: none;
+  }
+  a:hover, #main *[id^='readlink']:hover {
+    color:darken($green,40%);
+    text-decoration: underline;
+  }
   
   .post, .page{
     h1, h2 {
