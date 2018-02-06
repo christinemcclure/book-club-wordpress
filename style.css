@@ -6,48 +6,68 @@ Template: kotha
 Version: 1.0.0
 Text Domain: kotha-child
 */
-/* line 19, sass/style.scss */
+/* line 20, sass/style.scss */
 html, body {
   background: url("images/happy-plants.png") #93B891;
+  font-size: 100%;
 }
-/* line 21, sass/style.scss */
+/* line 23, sass/style.scss */
 html #primary, html #main .post, html #main .page, body #primary, body #main .post, body #main .page {
   background: #fef0c1;
   color: #2E1414;
 }
-/* line 25, sass/style.scss */
+/* line 27, sass/style.scss */
 html .primary-sidebar .widget, body .primary-sidebar .widget {
   background: #fec158;
 }
-/* line 26, sass/style.scss */
+/* line 28, sass/style.scss */
 html a, body a {
   color: #a51111;
   font-weight: bold;
 }
-/* line 28, sass/style.scss */
-html h1, html h2, html h3, html h4, html h5, html h6, body h1, body h2, body h3, body h4, body h5, body h6 {
-  color: #324c31;
+/* line 31, sass/style.scss */
+html .post h1, html .post h2, html .page h1, html .page h2, body .post h1, body .post h2, body .page h1, body .page h2 {
+  color: #1e2d1d;
+}
+/* line 35, sass/style.scss */
+html .post .entry-header h1, html .post .entry-header h1.entry-title, html .page .entry-header h1, html .page .entry-header h1.entry-title, body .post .entry-header h1, body .post .entry-header h1.entry-title, body .page .entry-header h1, body .page .entry-header h1.entry-title {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 2.4em;
+}
+/* line 46, sass/style.scss */
+html h4, body h4 {
+  font-size: 1em;
+}
+/* line 47, sass/style.scss */
+html h3, body h3 {
+  font-size: 1.2em;
+}
+/* line 48, sass/style.scss */
+html h2, body h2 {
+  font-size: 1.6em;
 }
 
-/* line 33, sass/style.scss */
+/* line 52, sass/style.scss */
 #footer {
   display: none;
 }
 
-/* line 35, sass/style.scss */
+/* line 54, sass/style.scss */
 #header {
   background: #2E1414;
   color: #fef0c1;
 }
-/* line 38, sass/style.scss */
+/* line 57, sass/style.scss */
 #header a {
   color: #fef0c1;
 }
-/* line 39, sass/style.scss */
+/* line 58, sass/style.scss */
 #header .sub-menu {
   background: #2E1414;
 }
-/* line 41, sass/style.scss */
+/* line 60, sass/style.scss */
 #header .sub-menu a {
   border-top: 1px solid #FEAB1B;
 }

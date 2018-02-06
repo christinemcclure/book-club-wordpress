@@ -15,9 +15,11 @@ $cream: lighten(#FDE48F,10%);
 $orange: #FEAB1B;
 $red: darken(#EA3232,20%);
 $brown: #2E1414;
+$fontSize: 14px;
 
 html,body{
   background: url('images/happy-plants.png') $green;
+  font-size: 100%;
   #primary, #main .post, #main .page{
     background: $cream;
     color: $brown;
@@ -25,9 +27,26 @@ html,body{
   .primary-sidebar .widget{background:lighten($orange, 12%);}
   a {color: $red; font-weight:bold;}
   
-  h1, h2, h3, h4, h5, h6 {
-    color: darken($green,40%);
+  .post, .page{
+    h1, h2 {
+      color: darken($green,50%);
+    }
+   .entry-header{
+      h1, h1.entry-title{
+        font-family: "Open Sans", sans-serif;
+        text-transform: uppercase;
+        text-align: left;
+        font-size: 2.4em;
+        //font-weight:bold;
+      }  
+   }
+
   }
+
+  h4{font-size: 1em;}
+  h3{font-size: 1.2em;}
+  h2{font-size: 1.6em;}
+
 }
 
 #footer{display:none;}
