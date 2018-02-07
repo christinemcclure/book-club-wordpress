@@ -17,33 +17,57 @@ $red: darken(#EA3232,20%);
 $brown: #2E1414;
 $fontSize: 14px;
 
+$htmlBackground: $green;
+$mainBackground: $cream;
+$mainFontColor: $brown;
+$linkColor: $red;
+$linkHoverColor: darken($green,40%);
+
+$sidebarBackground: lighten($orange, 18%);
+
+$h1h2Colors: darken($green,50%);
+$headerFont: "Open Sans", sans-serif;
+$winnerColor: $green;
+
+$headerBackground: $brown;
+$headerFont: darken($orange,10%);
+$headerAtag: lighten($orange,16%);
+$headerSubmenuBackground: $brown;
+$headerSubmenuBorder: darken($orange,10%);
+$headerSubmenuAbackground: darken($orange,10%);
+$headerSubmenuAcolor: darken($brown,20%);
+
+$voteFontColor: $brown;
+$voteButtonBackground: $red;
+$voteButtonColor: $cream;
+    
 html,body{
-  background: url('images/happy-plants.png') $green;
+  background: url('images/happy-plants.png') $htmlBackground;
   font-size: 100%;
   #primary, #main .post, #main .page{
-    background: $cream;
-    color: $brown;
+    background: $mainBackground;
+    color: $mainFontColor;
   }
-  .primary-sidebar .widget{background:lighten($orange, 18%);}
+  .primary-sidebar .widget{background:$sidebarBackground;}
   a, #main *[id^='readlink'] {
-    color: $red; 
+    color: $linkColor; 
     font-weight:bold; 
     padding:0; 
     border:none !important; // hate this, but the plugin dev did it first
     text-decoration: none;
   }
   a:hover, #main *[id^='readlink']:hover {
-    color:darken($green,40%);
+    color:$linkHoverColor;
     text-decoration: underline;
   }
   
   .post, .page{
     h1, h2 {
-      color: darken($green,50%);
+      color: $h1h2Colors;
     }
    .entry-header{
       h1, h1.entry-title{
-        font-family: "Open Sans", sans-serif;
+        font-family: $headerFont;
         text-transform: uppercase;
         text-align: left;
         font-size: 2.2em;
@@ -64,30 +88,30 @@ html,body{
 }
 .winner {
   padding: 6px;
-  background: $green;
+  background: $winnerColor;
 }
 #footer{display:none;}
 
 #header{
-  background: $brown;
-  color:darken($orange, 10%);
-  a{color:lighten($orange,16%);}
+  background: $headerBackground;
+  color:$headerFont;
+  a{color:$headerAtag;}
   .sub-menu{
-    background: $brown;
-    a {border-top: 1px solid darken($orange, 10%);}
+    background: $headerSubmenuBackground;
+    a {border-top: 1px solid $headerSubmenuBorder;}
     a:hover{
-      background: darken($orange, 10%);
-      color:darken($brown,20%);
+      background: $headerSubmenuAbackground;
+      color: $headerSubmenuAcolor;
     }    
   }
 }
 
 .democracy, .democracy .dem-vote label{
-  color:$brown;
+  color:$voteFontColor;
   font-weight:500;
   .dem-vote-button input.dem-button, input.dem-revote-link.dem-revote-button.dem-button{
-    background: $red;
-    color:$cream;
+    background: $voteButtonBackground;
+    color:$voteButtonColor;
   }
 }
 
