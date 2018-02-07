@@ -8,21 +8,21 @@ Text Domain: kotha-child
 */
 /* line 44, sass/style.scss */
 html, body {
-  background: url("images/happy-plants.png") #93B891;
+  background: #c47a49;
   font-size: 100%;
 }
 /* line 47, sass/style.scss */
 html #primary, html #main .post, html #main .page, body #primary, body #main .post, body #main .page {
-  background: #fef0c1;
-  color: #2E1414;
+  background: #ecebd7;
+  color: #3d2304;
 }
 /* line 51, sass/style.scss */
 html .primary-sidebar .widget, body .primary-sidebar .widget {
-  background: #fecd76;
+  background: #c47a49;
 }
 /* line 52, sass/style.scss */
 html a, html #main *[id^='readlink'], body a, body #main *[id^='readlink'] {
-  color: #a51111;
+  color: #fc0461;
   font-weight: bold;
   padding: 0;
   border: none !important;
@@ -30,16 +30,16 @@ html a, html #main *[id^='readlink'], body a, body #main *[id^='readlink'] {
 }
 /* line 59, sass/style.scss */
 html a:hover, html #main *[id^='readlink']:hover, body a:hover, body #main *[id^='readlink']:hover {
-  color: #324c31;
+  color: #c47a49;
   text-decoration: underline;
 }
 /* line 65, sass/style.scss */
 html .post h1, html .post h2, html .page h1, html .page h2, body .post h1, body .post h2, body .page h1, body .page h2 {
-  color: #1e2d1d;
+  color: #c47a49;
 }
 /* line 69, sass/style.scss */
 html .post .entry-header h1, html .post .entry-header h1.entry-title, html .page .entry-header h1, html .page .entry-header h1.entry-title, body .post .entry-header h1, body .post .entry-header h1.entry-title, body .page .entry-header h1, body .page .entry-header h1.entry-title {
-  font-family: #e59201;
+  font-family: #badccc;
   text-transform: uppercase;
   text-align: left;
   font-size: 2.2em;
@@ -65,7 +65,7 @@ html hr, body hr {
 /* line 89, sass/style.scss */
 .winner {
   padding: 6px;
-  background: #93B891;
+  background: #badccc;
 }
 
 /* line 93, sass/style.scss */
@@ -75,34 +75,34 @@ html hr, body hr {
 
 /* line 95, sass/style.scss */
 #header {
-  background: #2E1414;
-  color: #e59201;
+  background: #3d2304;
+  color: #badccc;
 }
 /* line 98, sass/style.scss */
 #header a {
-  color: #fec96c;
+  color: #fc0461;
 }
 /* line 99, sass/style.scss */
 #header .sub-menu {
-  background: #2E1414;
+  background: #3d2304;
 }
 /* line 101, sass/style.scss */
 #header .sub-menu a {
-  border-top: 1px solid #e59201;
+  border-top: 1px solid #c47a49;
 }
 /* line 102, sass/style.scss */
 #header .sub-menu a:hover {
-  background: #e59201;
-  color: black;
+  background: #fc0461;
+  color: #badccc;
 }
 
 /* line 109, sass/style.scss */
 .democracy, .democracy .dem-vote label {
-  color: #2E1414;
+  color: #3d2304;
   font-weight: 500;
 }
 /* line 112, sass/style.scss */
 .democracy .dem-vote-button input.dem-button, .democracy input.dem-revote-link.dem-revote-button.dem-button, .democracy .dem-vote label .dem-vote-button input.dem-button, .democracy .dem-vote label input.dem-revote-link.dem-revote-button.dem-button {
-  background: #a51111;
-  color: #fef0c1;
+  background: #fc0461;
+  color: #ecebd7;
 }

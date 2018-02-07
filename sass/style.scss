@@ -8,41 +8,41 @@ Text Domain: kotha-child
 */
 
 // Colors
-//http://www.colourlovers.com/pattern/2958888/happy_plants by incal: http://www.colourlovers.com/lover/incal/loveNote
+//http://www.colourlovers.com/palette/1457027/Sea_Calm by 
 
-$green: #93B891;
-$cream: lighten(#FDE48F,10%);
-$orange: #FEAB1B;
-$red: darken(#EA3232,20%);
-$brown: #2E1414;
+$cream: rgb(236,235,215);
+$green: rgb(186,220,204);
+$tan: rgb(196,122,73);
+$red: rgb(252,4,97);
+$brown: rgb(61,35,4);
 $fontSize: 14px;
 
-$htmlBackground: $green;
+$htmlBackground: $tan;
 $mainBackground: $cream;
 $mainFontColor: $brown;
 $linkColor: $red;
-$linkHoverColor: darken($green,40%);
+$linkHoverColor: $tan;
 
-$sidebarBackground: lighten($orange, 18%);
+$sidebarBackground: $tan;
 
-$h1h2Colors: darken($green,50%);
+$h1h2Colors: $tan;
 $headerFont: "Open Sans", sans-serif;
 $winnerColor: $green;
 
 $headerBackground: $brown;
-$headerFont: darken($orange,10%);
-$headerAtag: lighten($orange,16%);
+$headerFont: $green;
+$headerAtag: $red;
 $headerSubmenuBackground: $brown;
-$headerSubmenuBorder: darken($orange,10%);
-$headerSubmenuAbackground: darken($orange,10%);
-$headerSubmenuAcolor: darken($brown,20%);
+$headerSubmenuBorder: $tan;
+$headerSubmenuAbackground: $red;
+$headerSubmenuAcolor: $green;
 
 $voteFontColor: $brown;
 $voteButtonBackground: $red;
 $voteButtonColor: $cream;
     
 html,body{
-  background: url('images/happy-plants.png') $htmlBackground;
+  background: $htmlBackground;
   font-size: 100%;
   #primary, #main .post, #main .page{
     background: $mainBackground;
