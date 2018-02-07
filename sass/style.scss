@@ -18,16 +18,18 @@ $brown: rgb(61,35,4);
 $fontSize: 14px;
 
 $htmlBackground: $tan;
-$mainBackground: $cream;
-$mainFontColor: $brown;
+$mainBackground: lighten($cream,6%);
+$mainFontColor: darken($brown, 15%);
 $linkColor: $red;
 $linkHoverColor: $tan;
 
 $sidebarBackground: $tan;
 
-$h1h2Colors: $tan;
+$h1h2Colors: darken($tan,20%);
+$headerEntryFont: darken($tan,10%);
 $headerFont: "Open Sans", sans-serif;
 $winnerColor: $green;
+$lineColor: lighten($tan,20%);
 
 $headerBackground: $brown;
 $headerFont: $green;
@@ -67,7 +69,7 @@ html,body{
     }
    .entry-header{
       h1, h1.entry-title{
-        font-family: $headerFont;
+        font-family: $headerEntryFont;
         text-transform: uppercase;
         text-align: left;
         font-size: 2.2em;
@@ -83,7 +85,7 @@ html,body{
 
   hr {
     margin: 20px 0;
-    border: 1px solid tan;
+    border: 1px solid $lineColor;
   }
 }
 .winner {
