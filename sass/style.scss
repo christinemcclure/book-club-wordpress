@@ -31,7 +31,7 @@ $headerFont: "Open Sans", sans-serif;
 $winnerColor: $green;
 $lineColor: lighten($tan,20%);
 
-$headerBackground: $brown;
+$headerBackground: darken($brown,6%);
 $headerFont: $green;
 $headerAtag: $red;
 $headerSubmenuBackground: $brown;
@@ -50,7 +50,7 @@ html,body{
     background: $mainBackground;
     color: $mainFontColor;
   }
-  .primary-sidebar .widget{background:$sidebarBackground;}
+  .primary-sidebar .widget{background:darken($tan,12%);}
   a, #main *[id^='readlink'] {
     color: $linkColor; 
     font-weight:bold; 

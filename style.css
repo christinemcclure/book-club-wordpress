@@ -18,7 +18,7 @@ html #primary, html #main .post, html #main .page, body #primary, body #main .po
 }
 /* line 53, sass/style.scss */
 html .primary-sidebar .widget, body .primary-sidebar .widget {
-  background: #c47a49;
+  background: #9d5d33;
 }
 /* line 54, sass/style.scss */
 html a, html #main *[id^='readlink'], body a, body #main *[id^='readlink'] {
@@ -75,7 +75,7 @@ html hr, body hr {
 
 /* line 97, sass/style.scss */
 #header {
-  background: #3d2304;
+  background: #201302;
   color: #badccc;
 }
 /* line 100, sass/style.scss */
