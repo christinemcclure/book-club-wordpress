@@ -18,7 +18,7 @@ $brown: rgb(61,35,4);
 $fontSize: 14px;
 
 $htmlBackground: $tan;
-$mainBackground: lighten($cream,6%);
+$mainBackground: $cream;
 $mainFontColor: darken($brown, 15%);
 $linkColor: $red;
 $linkHoverColor: $tan;
@@ -32,12 +32,13 @@ $winnerColor: $green;
 $lineColor: lighten($tan,20%);
 
 $headerBackground: darken($brown,6%);
-$headerFont: $green;
+$headerFont: darken($cream,20%);
 $headerAtag: $red;
-$headerSubmenuBackground: $brown;
+$headerSubmenuBackground: darken($brown,6%);
 $headerSubmenuBorder: $tan;
 $headerSubmenuAbackground: $red;
 $headerSubmenuAcolor: $green;
+$headerSubmenuAhoverColor: darken($brown,20%);
 
 $voteFontColor: $brown;
 $voteButtonBackground: $red;
@@ -103,7 +104,7 @@ html,body{
     a {border-top: 1px solid $headerSubmenuBorder;}
     a:hover{
       background: $headerSubmenuAbackground;
-      color: $headerSubmenuAcolor;
+      color: $headerSubmenuAhoverColor;
     }    
   }
 }
