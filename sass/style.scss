@@ -8,7 +8,7 @@ Text Domain: kotha-child
 */
 
 // Colors
-//http://www.colourlovers.com/palette/1457027/Sea_Calm by 
+//http://www.colourlovers.com/palette/1457027/Sea_Calm by Miaka
 
 $cream: rgb(236,235,215);
 $green: rgb(186,220,204);
@@ -24,6 +24,8 @@ $linkColor: $red;
 $linkHoverColor: $tan;
 
 $sidebarBackground: $tan;
+$sidebarHeading: $brown;
+$sidebarLink: darken($red,20%);
 
 $h1h2Colors: darken($tan,20%);
 $headerEntryFont: darken($tan,10%);
@@ -51,7 +53,11 @@ html,body{
     background: $mainBackground;
     color: $mainFontColor;
   }
-  .primary-sidebar .widget{background:darken($tan,12%);}
+  .primary-sidebar .widget{
+    background:darken($tan,12%);
+    h1{color: $sidebarHeading;}
+    a{color: $sidebarLink;}
+  }
   a, #main *[id^='readlink'] {
     color: $linkColor; 
     font-weight:bold; 
@@ -118,3 +124,14 @@ html,body{
   }
 }
 
+.wppb-user-forms{
+  label {
+    font-size: 12px;
+//    float:left;
+    clear:right;
+  }
+  input {
+    width: 140px;
+    float:right;
+  }
+}
