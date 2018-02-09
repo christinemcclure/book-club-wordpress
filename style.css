@@ -91,31 +91,35 @@ html hr, body hr {
   color: #fc0461;
 }
 /* line 108, sass/style.scss */
-#header #menu-main, #header .sub-menu {
+#header #menu-main {
   background: #201302;
 }
-/* line 110, sass/style.scss */
-#header #menu-main a, #header .sub-menu a {
-  border-top: 1px solid #c47a49;
+/* line 109, sass/style.scss */
+#header .sub-menu {
+  background: #201302;
 }
 /* line 111, sass/style.scss */
-#header #menu-main a:hover, #header .sub-menu a:hover {
+#header .sub-menu a {
+  border-top: 1px solid #c47a49;
+}
+/* line 112, sass/style.scss */
+#header .sub-menu a:hover {
   background: #fc0461;
   color: black;
 }
 
-/* line 118, sass/style.scss */
+/* line 119, sass/style.scss */
 .democracy, .democracy .dem-vote label {
   color: #3d2304;
   font-weight: 500;
 }
-/* line 121, sass/style.scss */
+/* line 122, sass/style.scss */
 .democracy .dem-vote-button input.dem-button, .democracy input.dem-revote-link.dem-revote-button.dem-button, .democracy .dem-vote label .dem-vote-button input.dem-button, .democracy .dem-vote label input.dem-revote-link.dem-revote-button.dem-button {
   background: #fc0461;
   color: #ecebd7;
 }
 
-/* line 128, sass/style.scss */
+/* line 129, sass/style.scss */
 .wppb-user-forms input {
   width: 140px;
   float: right;
