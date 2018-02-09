@@ -116,11 +116,6 @@ html hr, body hr {
 }
 
 /* line 128, sass/style.scss */
-.wppb-user-forms label {
-  font-size: 12px;
-  clear: right;
-}
-/* line 133, sass/style.scss */
 .wppb-user-forms input {
   width: 140px;
   float: right;
