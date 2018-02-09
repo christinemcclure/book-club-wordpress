@@ -105,7 +105,7 @@ html,body{
   background: $headerBackground;
   color:$headerFont;
   a{color:$headerAtag;}
-  .sub-menu{
+  #menu-main, .sub-menu{
     background: $headerSubmenuBackground;
     a {border-top: 1px solid $headerSubmenuBorder;}
     a:hover{

@@ -91,15 +91,15 @@ html hr, body hr {
   color: #fc0461;
 }
 /* line 108, sass/style.scss */
-#header .sub-menu {
+#header #menu-main, #header .sub-menu {
   background: #201302;
 }
 /* line 110, sass/style.scss */
-#header .sub-menu a {
+#header #menu-main a, #header .sub-menu a {
   border-top: 1px solid #c47a49;
 }
 /* line 111, sass/style.scss */
-#header .sub-menu a:hover {
+#header #menu-main a:hover, #header .sub-menu a:hover {
   background: #fc0461;
   color: black;
 }
