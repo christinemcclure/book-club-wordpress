@@ -155,7 +155,7 @@ html hr, body hr {
   float: right;
 }
 /* line 172, sass/style.scss */
-.wppb-user-forms #wppb-submit, .wppb-user-forms #wppb-recover-password-button {
+.wppb-user-forms #wppb-submit, .wppb-user-forms input#edit_profile, .wppb-user-forms #wppb-recover-password-button {
   background: #98023a;
   color: #ecebd7;
   border: none;

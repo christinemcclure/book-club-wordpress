@@ -169,7 +169,7 @@ html,body{
     float:right;
   }
   
-    #wppb-submit, #wppb-recover-password-button{
+    #wppb-submit, input#edit_profile, #wppb-recover-password-button{
     background: $voteButtonBackground;
     color: $voteButtonColor;
     border:none;
