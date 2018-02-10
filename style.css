@@ -6,51 +6,51 @@ Template: kotha
 Version: 1.0.0
 Text Domain: kotha-child
 */
-/* line 55, sass/style.scss */
+/* line 57, sass/style.scss */
 html, body {
   background: #c47a49;
   font-size: 100%;
 }
-/* line 58, sass/style.scss */
+/* line 60, sass/style.scss */
 html #primary, html #main .post, html #main .page, body #primary, body #main .post, body #main .page {
   background: #ecebd7;
   color: black;
 }
-/* line 61, sass/style.scss */
+/* line 63, sass/style.scss */
 html #primary .entry-meta, html #primary .entry-meta a, html #main .post .entry-meta, html #main .post .entry-meta a, html #main .page .entry-meta, html #main .page .entry-meta a, body #primary .entry-meta, body #primary .entry-meta a, body #main .post .entry-meta, body #main .post .entry-meta a, body #main .page .entry-meta, body #main .page .entry-meta a {
   font-size: 90%;
   color: black;
 }
-/* line 66, sass/style.scss */
+/* line 68, sass/style.scss */
 html .primary-sidebar .widget, body .primary-sidebar .widget {
   background: #9d5d33;
   color: black;
 }
-/* line 68, sass/style.scss */
+/* line 70, sass/style.scss */
 html .primary-sidebar .widget h1, body .primary-sidebar .widget h1 {
   color: #102119;
   padding: 0;
   margin: 0 0 20px 0;
 }
-/* line 69, sass/style.scss */
+/* line 71, sass/style.scss */
 html .primary-sidebar .widget a, body .primary-sidebar .widget a {
   color: #660127;
 }
-/* line 73, sass/style.scss */
+/* line 75, sass/style.scss */
 html .primary-sidebar .widget .latest, body .primary-sidebar .widget .latest {
   margin: 0;
   padding: 0;
 }
-/* line 76, sass/style.scss */
+/* line 78, sass/style.scss */
 html .primary-sidebar .widget .latest .media, html .primary-sidebar .widget .latest .media-body, body .primary-sidebar .widget .latest .media, body .primary-sidebar .widget .latest .media-body {
   margin: 0 0 10px 0;
   padding: 0;
 }
-/* line 79, sass/style.scss */
+/* line 81, sass/style.scss */
 html .primary-sidebar .widget .latest .media .entry-meta, html .primary-sidebar .widget .latest .media-body .entry-meta, body .primary-sidebar .widget .latest .media .entry-meta, body .primary-sidebar .widget .latest .media-body .entry-meta {
   display: none;
 }
-/* line 84, sass/style.scss */
+/* line 86, sass/style.scss */
 html a, html #main *[id^='readlink'], body a, body #main *[id^='readlink'] {
   color: #fc0461;
   font-weight: bold;
@@ -58,126 +58,137 @@ html a, html #main *[id^='readlink'], body a, body #main *[id^='readlink'] {
   border: none !important;
   text-decoration: none;
 }
-/* line 91, sass/style.scss */
+/* line 93, sass/style.scss */
 html a:hover, html #main *[id^='readlink']:hover, body a:hover, body #main *[id^='readlink']:hover {
   color: #c47a49;
   text-decoration: underline;
 }
-/* line 97, sass/style.scss */
+/* line 99, sass/style.scss */
 html .post h1, html .post h2, html .page h1, html .page h2, body .post h1, body .post h2, body .page h1, body .page h2 {
   color: #7e4b29;
 }
-/* line 102, sass/style.scss */
+/* line 104, sass/style.scss */
 html .post .entry-header h1, html .post .entry-header h1.entry-title, html .page .entry-header h1, html .page .entry-header h1.entry-title, body .post .entry-header h1, body .post .entry-header h1.entry-title, body .page .entry-header h1, body .page .entry-header h1.entry-title {
   font-family: #a56235;
   text-transform: uppercase;
   text-align: left;
   font-size: 2.2em;
 }
-/* line 116, sass/style.scss */
+/* line 118, sass/style.scss */
 html h4, body h4 {
   font-size: 1em;
 }
-/* line 117, sass/style.scss */
+/* line 119, sass/style.scss */
 html h3, body h3 {
   font-size: 1.2em;
 }
-/* line 118, sass/style.scss */
+/* line 120, sass/style.scss */
 html h2, body h2 {
   font-size: 1.4em;
 }
-/* line 120, sass/style.scss */
+/* line 122, sass/style.scss */
 html hr, body hr {
   margin: 20px 0;
   border: 1px solid #ddb296;
 }
 
-/* line 129, sass/style.scss */
+/* line 131, sass/style.scss */
 .winner {
   padding: 6px;
   background: #badccc;
 }
 
-/* line 133, sass/style.scss */
+/* line 135, sass/style.scss */
 #footer {
   display: none;
 }
 
-/* line 135, sass/style.scss */
+/* line 137, sass/style.scss */
 #header {
   background: #201302;
   color: #cbc892;
 }
-/* line 138, sass/style.scss */
+/* line 140, sass/style.scss */
 #header a {
   color: #fc0461;
 }
-/* line 139, sass/style.scss */
+/* line 141, sass/style.scss */
 #header #menu-main {
   background: #201302;
 }
-/* line 140, sass/style.scss */
+/* line 142, sass/style.scss */
 #header .sub-menu {
   background: #201302;
 }
-/* line 142, sass/style.scss */
+/* line 144, sass/style.scss */
 #header .sub-menu a {
   border-top: 1px solid #c47a49;
 }
-/* line 143, sass/style.scss */
+/* line 145, sass/style.scss */
 #header .sub-menu a:hover {
   background: #fc0461;
   color: black;
 }
 
-/* line 150, sass/style.scss */
+/* line 152, sass/style.scss */
 .democracy, .democracy .dem-vote {
   color: #3d2304;
   font-weight: 500;
 }
-/* line 154, sass/style.scss */
+/* line 156, sass/style.scss */
 .democracy .dem-vote-button input.dem-button, .democracy input.dem-revote-link.dem-revote-button.dem-button, .democracy .dem-vote .dem-vote-button input.dem-button, .democracy .dem-vote input.dem-revote-link.dem-revote-button.dem-button {
   background: #98023a;
   color: #ecebd7;
 }
-/* line 158, sass/style.scss */
+/* line 160, sass/style.scss */
 .democracy label, .democracy .dem-label, .democracy .dem-vote label, .democracy .dem-vote .dem-label {
   color: #102119;
 }
-/* line 161, sass/style.scss */
+/* line 163, sass/style.scss */
 .democracy .dem-poll-info div, .democracy .dem-vote .dem-poll-info div {
   color: black;
 }
 
-/* line 167, sass/style.scss */
+/* line 169, sass/style.scss */
 .wppb-user-forms input, .wppb-user-forms select {
   width: 300px;
   float: right;
   color: #3d2304;
 }
-/* line 172, sass/style.scss */
+/* line 174, sass/style.scss */
 .wppb-user-forms #loginform input {
   width: 140px;
 }
-/* line 176, sass/style.scss */
+/* line 178, sass/style.scss */
 .wppb-user-forms #wppb-submit, .wppb-user-forms input#edit_profile, .wppb-user-forms #wppb-recover-password-button {
   background: #98023a;
   color: #ecebd7;
   border: none;
 }
 
-/* line 189, sass/style.scss */
+/* line 191, sass/style.scss */
 .page .entry-content .wpforms-container button.wpforms-submit {
   background: #76ba9a;
   color: #3d2304;
   font-weight: bold;
 }
-/* line 195, sass/style.scss */
+/* line 197, sass/style.scss */
 .page .entry-content .wpforms-container div[class*="wpforms-confirmation-container"] {
   background: #76ba9a;
   color: #3d2304;
 }
-/* line 201, sass/style.scss */
+/* line 203, sass/style.scss */
 .page .entry-content .wpforms-container .hide-form-field {
   display: none;
+}
+
+@media screen and (max-width: 580px) {
+  /* line 210, sass/style.scss */
+  html header#header, body header#header {
+    height: 100px;
+  }
+  /* line 212, sass/style.scss */
+  html header#header p, body header#header p {
+    line-height: 16px;
+  }
 }

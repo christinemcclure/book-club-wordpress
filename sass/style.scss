@@ -43,6 +43,8 @@ $headerSubmenuAbackground: $red;
 $headerSubmenuAcolor: $green;
 $headerSubmenuAhoverColor: darken($brown,20%);
 
+$subMenuMobileBackground: $tan;
+
 $voteFontColor: $brown;
 $voteButtonBackground: darken($red,20%);
 $voteButtonColor: $cream;
@@ -203,3 +205,11 @@ html,body{
   }
 }  
 
+@media screen and (max-width: 580px) { // tagline wraps on smaller screens
+  html,body{
+   header#header{
+     height:100px;
+     p {line-height:16px;}
+   }   
+  }  
+}
