@@ -150,37 +150,34 @@ html hr, body hr {
 }
 
 /* line 167, sass/style.scss */
-.wppb-user-forms input {
-  width: 140px;
+.wppb-user-forms input, .wppb-user-forms select {
+  width: 300px;
   float: right;
+  color: #3d2304;
 }
 /* line 172, sass/style.scss */
+.wppb-user-forms #loginform input {
+  width: 140px;
+}
+/* line 176, sass/style.scss */
 .wppb-user-forms #wppb-submit, .wppb-user-forms input#edit_profile, .wppb-user-forms #wppb-recover-password-button {
   background: #98023a;
   color: #ecebd7;
   border: none;
 }
-/* line 177, sass/style.scss */
-.wppb-user-forms input#wppb-recover-password-button {
-  width: 200px;
-}
-/* line 178, sass/style.scss */
-.wppb-user-forms input#username_email {
-  width: 300px;
-}
 
-/* line 185, sass/style.scss */
+/* line 189, sass/style.scss */
 .page .entry-content .wpforms-container button.wpforms-submit {
   background: #76ba9a;
   color: #3d2304;
   font-weight: bold;
 }
-/* line 191, sass/style.scss */
+/* line 195, sass/style.scss */
 .page .entry-content .wpforms-container div[class*="wpforms-confirmation-container"] {
   background: #76ba9a;
   color: #3d2304;
 }
-/* line 197, sass/style.scss */
+/* line 201, sass/style.scss */
 .page .entry-content .wpforms-container .hide-form-field {
   display: none;
 }

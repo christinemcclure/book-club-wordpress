@@ -164,9 +164,13 @@ html,body{
 
 
 .wppb-user-forms{
-  input {
-    width: 140px;
+  input, select {
+    width: 300px;
     float:right;
+    color:$voteFontColor;
+  }
+   #loginform input {
+    width: 140px;
   }
   
     #wppb-submit, input#edit_profile, #wppb-recover-password-button{
@@ -174,8 +178,8 @@ html,body{
     color: $voteButtonColor;
     border:none;
     }
-    input#wppb-recover-password-button{width:200px;} 
-    input#username_email{ width: 300px;}
+    //input#wppb-recover-password-button{width:200px;} 
+    //input#username_email, form#wppb-edit-user  li.wppb-form-field input.text-input{ width: 300px;}
   
 }
 
