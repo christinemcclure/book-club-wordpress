@@ -58,13 +58,29 @@ html,body{
   #primary, #main .post, #main .page{
     background: $mainBackground;
     color: $mainFontColor;
+       .entry-meta, .entry-meta a{ // author info
+        font-size:90%;
+        color: darken($sidebarHeading,20%);
+      }   
   }
   .primary-sidebar .widget{
     background:darken($tan,12%);
     h1{color: $sidebarHeading; padding:0; margin:0 0 20px 0;}
     a{color: $sidebarLink;}
     color:$sidebarTextColor;
-  }
+    
+    //posts
+    .latest{
+      margin: 0;
+      padding: 0;
+      .media, .media-body{
+        margin:0 0 10px 0;
+        padding:0;
+        .entry-meta{display:none;}
+      }
+    }
+  }//end sidebar
+  
   a, #main *[id^='readlink'] {
     color: $linkColor; 
     font-weight:bold; 
@@ -80,6 +96,7 @@ html,body{
   .post, .page{
     h1, h2 {
       color: $h1h2Colors;
+     
     }
    .entry-header{
       h1, h1.entry-title{
@@ -90,7 +107,8 @@ html,body{
         //font-weight:bold;
       }  
    }
-    
+  
+   
    
 
   }
