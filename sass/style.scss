@@ -24,8 +24,9 @@ $linkColor: $red;
 $linkHoverColor: $tan;
 
 $sidebarBackground: $tan;
-$sidebarHeading: $brown;
+$sidebarHeading: darken($green,70%);
 $sidebarLink: darken($red,30%);
+$sidebarTextColor: darken($brown,20%);
 
 $h1h2Colors: darken($tan,20%);
 $headerEntryFont: darken($tan,10%);
@@ -59,8 +60,9 @@ html,body{
   }
   .primary-sidebar .widget{
     background:darken($tan,12%);
-    h1{color: $sidebarHeading;}
+    h1{color: $sidebarHeading; padding:0; margin:0 0 20px 0;}
     a{color: $sidebarLink;}
+    color:$sidebarTextColor;
   }
   a, #main *[id^='readlink'] {
     color: $linkColor; 
