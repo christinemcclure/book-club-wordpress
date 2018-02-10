@@ -45,6 +45,10 @@ $headerSubmenuAhoverColor: darken($brown,20%);
 $voteFontColor: $brown;
 $voteButtonBackground: $red;
 $voteButtonColor: $cream;
+
+$formButtonBackground: darken($green,20%);
+$formButtonColor: $brown;
+
     
 html,body{
   background: $htmlBackground;
@@ -83,6 +87,8 @@ html,body{
         //font-weight:bold;
       }  
    }
+    
+   
 
   }
 
@@ -94,7 +100,11 @@ html,body{
     margin: 20px 0;
     border: 1px solid $lineColor;
   }
+  
 }
+
+
+// end html 
 .winner {
   padding: 6px;
   background: $winnerColor;
@@ -131,4 +141,24 @@ html,body{
     float:right;
   }
 }
+
+
+
+.page .entry-content .wpforms-container {
+  button.wpforms-submit{
+    background:$formButtonBackground;
+    color:$formButtonColor;
+    font-weight:bold;
+  }
+
+  div[class*="wpforms-confirmation-container"]{ // not working
+    background:$formButtonBackground;
+    color:$formButtonColor;  
+  }
+
+
+  .hide-form-field{
+    display:none;
+  }
+}  
 
