@@ -154,19 +154,33 @@ html hr, body hr {
   width: 140px;
   float: right;
 }
+/* line 172, sass/style.scss */
+.wppb-user-forms #wppb-submit, .wppb-user-forms #wppb-recover-password-button {
+  background: #98023a;
+  color: #ecebd7;
+  border: none;
+}
+/* line 177, sass/style.scss */
+.wppb-user-forms input#wppb-recover-password-button {
+  width: 200px;
+}
+/* line 178, sass/style.scss */
+.wppb-user-forms input#username_email {
+  width: 300px;
+}
 
-/* line 176, sass/style.scss */
+/* line 185, sass/style.scss */
 .page .entry-content .wpforms-container button.wpforms-submit {
   background: #76ba9a;
   color: #3d2304;
   font-weight: bold;
 }
-/* line 182, sass/style.scss */
+/* line 191, sass/style.scss */
 .page .entry-content .wpforms-container div[class*="wpforms-confirmation-container"] {
   background: #76ba9a;
   color: #3d2304;
 }
-/* line 188, sass/style.scss */
+/* line 197, sass/style.scss */
 .page .entry-content .wpforms-container .hide-form-field {
   display: none;
 }

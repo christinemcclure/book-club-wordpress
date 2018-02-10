@@ -168,6 +168,15 @@ html,body{
     width: 140px;
     float:right;
   }
+  
+    #wppb-submit, #wppb-recover-password-button{
+    background: $voteButtonBackground;
+    color: $voteButtonColor;
+    border:none;
+    }
+    input#wppb-recover-password-button{width:200px;} 
+    input#username_email{ width: 300px;}
+  
 }
 
 
