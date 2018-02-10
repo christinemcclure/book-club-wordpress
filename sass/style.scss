@@ -44,8 +44,9 @@ $headerSubmenuAcolor: $green;
 $headerSubmenuAhoverColor: darken($brown,20%);
 
 $voteFontColor: $brown;
-$voteButtonBackground: $red;
+$voteButtonBackground: darken($red,20%);
 $voteButtonColor: $cream;
+$voteLabelColor: darken($green,70%);
 
 $formButtonBackground: darken($green,20%);
 $formButtonColor: $brown;
@@ -128,14 +129,21 @@ html,body{
   }
 }
 
-.democracy, .democracy .dem-vote label{
+.democracy, .democracy .dem-vote{
   color:$voteFontColor;
+
   font-weight:500;
   .dem-vote-button input.dem-button, input.dem-revote-link.dem-revote-button.dem-button{
     background: $voteButtonBackground;
     color:$voteButtonColor;
   }
+  label, .dem-label{
+    color: $voteLabelColor;
+  }
+  .dem-poll-info div{color:darken($voteFontColor,20%);}
 }
+
+
 
 .wppb-user-forms{
   input {
