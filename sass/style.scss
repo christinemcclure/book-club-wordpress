@@ -213,3 +213,18 @@ html,body{
    }   
   }  
 }
+
+.slicknav_menu {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  .slicknav_icon-bar{
+    background:$headerFont;
+  }
+  ul{
+    background: $headerSubmenuBackground;
+    a:hover{
+      background: $headerSubmenuBackground;
+    }
+  }
+}

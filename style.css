@@ -192,3 +192,21 @@ html hr, body hr {
     line-height: 16px;
   }
 }
+/* line 217, sass/style.scss */
+.slicknav_menu {
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+/* line 221, sass/style.scss */
+.slicknav_menu .slicknav_icon-bar {
+  background: #cbc892;
+}
+/* line 224, sass/style.scss */
+.slicknav_menu ul {
+  background: #201302;
+}
+/* line 226, sass/style.scss */
+.slicknav_menu ul a:hover {
+  background: #201302;
+}
